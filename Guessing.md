@@ -13,6 +13,7 @@ flowchart TD
  I -- Too High --> J[Try Lower]
  I -- Too Low --> K[Try Higher]
  J & K --> C
+```
 
 The flowchart starts by getting a number and asking the user to guess the number
 If the user input is not a number, their input is invalid and they will be looped back to try again
